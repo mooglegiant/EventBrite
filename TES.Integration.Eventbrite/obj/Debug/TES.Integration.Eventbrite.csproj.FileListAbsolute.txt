@@ -1,0 +1,7 @@
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\bin\Debug\TES.Integration.Eventbrite.dll
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\bin\Debug\TES.Integration.Eventbrite.pdb
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\bin\Debug\Newtonsoft.Json.dll
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\bin\Debug\Newtonsoft.Json.xml
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\obj\Debug\TES.Integration.Eventbrite.csprojResolveAssemblyReference.cache
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\obj\Debug\TES.Integration.Eventbrite.dll
+c:\users\thedr\documents\visual studio 2012\Eventbrite\TES.Integration.Eventbrite\obj\Debug\TES.Integration.Eventbrite.pdb
