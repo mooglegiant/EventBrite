@@ -16,7 +16,7 @@ namespace Eventbrite
         static void Main(string[] args)
         {
             //When true this displays every purchase, including bulk ticket purchases with repeating information.
-            bool displayDuplicateTicketPurchases = true;
+            bool displayDuplicateTicketPurchases = false;
 
             #region Authorizations
             //Enable/Disable for accessing different systems.
@@ -24,8 +24,8 @@ namespace Eventbrite
             //Client c = new Client("3KGA5I5TOM3HVPWRERYH", "27839720379", "https://www.eventbriteapi.com/v3"); //Kings Fund
 
             //Example Event IDs for both TES and Kingsfund. Enable/disable with the above items
-            //string exampleEventID = "11387922583" //TES
-            string exampleEventID = "6738465933" //Kings Fund
+            string exampleEventID = "11387922583"; //TES
+            //string exampleEventID = "6738465933"; //Kings Fund
             #endregion
 
             #region Tests Event Functions
@@ -66,6 +66,15 @@ namespace Eventbrite
                     if (i > 0)
                     {
                         if (a.profile.name != o.attendees[i - 1].profile.name)
+                        {
+                            Console.WriteLine("    " + i.ToString() + " " + a.profile.name);
+                            foreach (AttendeeAnswer aa in a.answers)
+                            {
+                                Console.WriteLine("        Question: " + aa.question);
+                                Console.WriteLine("        Answer: " + aa.answer);
+                            }
+                        }
+                        else if(displayDuplicateTicketPurchases)
                         {
                             Console.WriteLine("    " + i.ToString() + " " + a.profile.name);
                             foreach (AttendeeAnswer aa in a.answers)
