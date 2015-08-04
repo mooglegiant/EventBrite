@@ -8,3 +8,13 @@ c:\users\thedr\documents\visual studio 2012\Eventbrite\Eventbrite\bin\Debug\Newt
 c:\users\thedr\documents\visual studio 2012\Eventbrite\Eventbrite\bin\Debug\Newtonsoft.Json.xml
 c:\users\thedr\documents\visual studio 2012\Eventbrite\Eventbrite\bin\Debug\TES.Integration.Eventbrite.dll
 c:\users\thedr\documents\visual studio 2012\Eventbrite\Eventbrite\bin\Debug\TES.Integration.Eventbrite.pdb
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Eventbrite.exe.config
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\obj\Debug\Eventbrite.exe
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\obj\Debug\Eventbrite.pdb
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Eventbrite.exe
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Eventbrite.pdb
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Newtonsoft.Json.dll
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\TES.Integration.Eventbrite.dll
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\TES.Integration.Eventbrite.pdb
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Newtonsoft.Json.xml
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\obj\Debug\Eventbrite.csprojResolveAssemblyReference.cache

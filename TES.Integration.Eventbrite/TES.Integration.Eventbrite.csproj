@@ -48,7 +48,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\AttendeeObjects\Attendee.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeAddress.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeAnswer.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeBarcode.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeProfile.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeResults.cs" />
+    <Compile Include="Classes\AttendeeObjects\AttendeeTeam.cs" />
+    <Compile Include="Classes\Common\Address.cs" />
     <Compile Include="Classes\Common\Client.cs" />
+    <Compile Include="Classes\Common\Currency.cs" />
+    <Compile Include="Classes\Common\MultipartDate.cs" />
+    <Compile Include="Classes\Common\MultipartName.cs" />
+    <Compile Include="Classes\Common\Order.cs" />
+    <Compile Include="Classes\Common\OrderCosts.cs" />
+    <Compile Include="Classes\Common\OrderResults.cs" />
     <Compile Include="Classes\Common\pagination.cs" />
     <Compile Include="Classes\Events\Event.cs" />
     <Compile Include="Classes\Events\EventsResults.cs" />
