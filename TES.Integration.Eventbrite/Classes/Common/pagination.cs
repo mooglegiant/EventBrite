@@ -8,9 +8,9 @@ namespace TES.Integration.Eventbrite.Classes.Common
 {
     public class pagination
     {
-        public string object_count { get; set; }
-        public string page_number { get; set; }
-        public string page_size { get; set; }
-        public string page_count { get; set; }
+        public int object_count { get; set; }
+        public int page_number { get; set; }
+        public int page_size { get; set; }
+        public int page_count { get; set; }
     }
 }

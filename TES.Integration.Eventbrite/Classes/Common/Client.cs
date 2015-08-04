@@ -65,10 +65,34 @@ namespace TES.Integration.Eventbrite.Classes.Common
             var result = client.DownloadString(url);
             OrderResults oResults = JsonConvert.DeserializeObject<OrderResults>(result);
             AttendeeResults aResults = GetAttendees(eventId);
-            foreach (Order o in oResults.orders)
-                o.attendees = aResults.attendees;
+            OrderResults finalResults = new OrderResults();
+            finalResults.Pagination = oResults.Pagination;
+            if (oResults.Pagination.page_count > 1)
+            {
+                for (int i = 0; i < oResults.Pagination.page_count; i++)
+                {
+                    var tUrl = string.Format("{0}/events/{1}/orders/?token={2}&page={3}", _baseURL, eventId, _token, i + 1);
+                    var tResult = client.DownloadString(tUrl);
+                    OrderResults tResults = JsonConvert.DeserializeObject<OrderResults>(tResult);
+                    if (finalResults.orders == null)
+                        finalResults.orders = new List<Order>();
+                    if (tResults.orders != null)
+                        finalResults.orders.AddRange(tResults.orders);
+                    finalResults.orders[i].attendees = aResults.attendees;
+                }
+            }
+            else
+            {
+                finalResults.orders = oResults.orders;
+            }
 
-            return oResults;
+            foreach (Order o in finalResults.orders)
+            {
+                o.attendees = aResults.attendees;
+                
+                //Blunking out
+            }
+            return finalResults;
         }
         /// <summary>
         /// This returns a list of Attendees, as an 'AttendeeResults,' associated with with the event of the given ID.
@@ -80,7 +104,29 @@ namespace TES.Integration.Eventbrite.Classes.Common
             GetClient();
             var url = string.Format("{0}/events/{1}/attendees/?token={2}", _baseURL, eventId, _token);
             var result = client.DownloadString(url);
-            return JsonConvert.DeserializeObject<AttendeeResults>(result);
+            AttendeeResults tempResults = JsonConvert.DeserializeObject<AttendeeResults>(result);
+            AttendeeResults finalResults = new AttendeeResults();
+            if (tempResults.Pagination.page_count > 1)
+            {
+                for (int i = 0; i < tempResults.Pagination.page_count; i++)
+                {
+                    var tUrl = string.Format("{0}/events/{1}/attendees/?token={2}&page={3}", _baseURL, eventId, _token, i + 1);
+                    var tResult = client.DownloadString(tUrl);
+                    AttendeeResults tResults = JsonConvert.DeserializeObject<AttendeeResults>(tResult);
+                    if (finalResults.attendees == null)
+                        finalResults.attendees = new List<Attendee>();
+                    if (tResults.attendees != null)
+                    {
+                        finalResults.attendees.AddRange(tResults.attendees);
+                    }
+                }
+            }
+            else
+            {
+                finalResults.attendees = tempResults.attendees;
+            }
+
+            return finalResults;
         }
 
 
