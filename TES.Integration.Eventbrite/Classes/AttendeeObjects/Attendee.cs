@@ -16,7 +16,7 @@ namespace TES.Integration.Eventbrite.Classes.AttendeeObjects
         public AttendeeProfile profile { get; set; }
         public List<AttendeeAddress> addresses { get; set; }
         public List<AttendeeAnswer> answers { get; set; }
-        public List<AttendeeAddress> barcodes { get; set; }
+        public List<AttendeeBarcode> barcodes { get; set; }
         public AttendeeTeam team { get; set; }
 
         public string event_id { get; set; }

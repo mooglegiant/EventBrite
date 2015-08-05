@@ -82,16 +82,10 @@ namespace TES.Integration.Eventbrite.Classes.Common
                 }
             }
             else
-            {
                 finalResults.orders = oResults.orders;
-            }
 
             foreach (Order o in finalResults.orders)
-            {
                 o.attendees = aResults.attendees;
-                
-                //Blunking out
-            }
             return finalResults;
         }
         /// <summary>
@@ -116,19 +110,14 @@ namespace TES.Integration.Eventbrite.Classes.Common
                     if (finalResults.attendees == null)
                         finalResults.attendees = new List<Attendee>();
                     if (tResults.attendees != null)
-                    {
                         finalResults.attendees.AddRange(tResults.attendees);
-                    }
                 }
             }
             else
-            {
                 finalResults.attendees = tempResults.attendees;
-            }
 
             return finalResults;
         }
-
 
         private WebClient GetClient()
         {
@@ -139,12 +128,5 @@ namespace TES.Integration.Eventbrite.Classes.Common
             }
             else return client;
         }
-
-        public List<AttendeeAnswer> GetAnswers()
-        {
-            //I can't figure out how to find the answers...? I don't think they're natively stored with the attendees
-            return null;
-        }
-
     }
 }

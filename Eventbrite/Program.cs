@@ -16,7 +16,7 @@ namespace Eventbrite
         static void Main(string[] args)
         {
             //When true this displays every purchase, including bulk ticket purchases with repeating information.
-            bool displayDuplicateTicketPurchases = false;
+            bool displayDuplicateTicketPurchases = true;
 
             #region Authorizations
             //Enable/Disable for accessing different systems.
