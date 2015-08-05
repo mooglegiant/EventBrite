@@ -64,6 +64,7 @@
     <Compile Include="Classes\Common\OrderCosts.cs" />
     <Compile Include="Classes\Common\OrderResults.cs" />
     <Compile Include="Classes\Common\pagination.cs" />
+    <Compile Include="Classes\Common\Ticket.cs" />
     <Compile Include="Classes\Events\Event.cs" />
     <Compile Include="Classes\Events\EventsResults.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
