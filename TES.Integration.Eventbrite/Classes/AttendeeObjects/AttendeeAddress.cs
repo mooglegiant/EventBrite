@@ -12,5 +12,7 @@ namespace TES.Integration.Eventbrite.Classes.AttendeeObjects
         public Address home { get; set; }
         public Address ship { get; set; }
         public Address work { get; set; }
+
+        
     }
 }

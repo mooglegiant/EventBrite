@@ -10,16 +10,18 @@ namespace TES.Integration.Eventbrite.Classes.AttendeeObjects
 {
     public class Attendee
     {
+        public string id { get; set; }
         public DateTime created { get; set; }
         public DateTime changed { get; set; }
         public string ticket_class_id { get; set; }
-        public AttendeeProfile profile { get; set; }
-        public List<AttendeeAddress> addresses { get; set; }
         public List<AttendeeAnswer> answers { get; set; }
         public List<AttendeeBarcode> barcodes { get; set; }
-        public AttendeeTeam team { get; set; }
-
+        public AttendeeProfile profile { get; set; }
         public string event_id { get; set; }
         public string order_id { get; set; }
+
+        public Attendee()
+        {
+        }
     }
 }

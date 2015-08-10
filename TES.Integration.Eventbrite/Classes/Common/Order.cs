@@ -10,6 +10,7 @@ namespace TES.Integration.Eventbrite.Classes.Common
 {
     public class Order
     {
+        public string id { get; set; }
         public DateTime created { get; set; }
         public DateTime changed { get; set; }
         public string name { get; set; }
@@ -20,5 +21,10 @@ namespace TES.Integration.Eventbrite.Classes.Common
 
         public string event_id { get; set; }
         public List<Attendee> attendees { get; set; }
+
+        public Order()
+        {
+                
+        }
     }
 }

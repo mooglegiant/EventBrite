@@ -22,5 +22,6 @@ namespace TES.Integration.Eventbrite.Classes.AttendeeObjects
         public string gender { get; set; }
         public DateTime birth_date { get; set; }
         public string cell_phone { get; set; }
+        public AttendeeAddress addresses { get; set; }
     }
 }

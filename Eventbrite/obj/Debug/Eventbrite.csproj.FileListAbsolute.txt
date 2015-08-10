@@ -18,3 +18,5 @@ C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\b
 C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\TES.Integration.Eventbrite.pdb
 C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\Newtonsoft.Json.xml
 C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\obj\Debug\Eventbrite.csprojResolveAssemblyReference.cache
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\TES.Integration.Template.dll
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\Eventbrite\bin\Debug\TES.Integration.Template.pdb

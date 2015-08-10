@@ -7,7 +7,7 @@ using TES.Integration.Eventbrite.Classes.Events;
 
 namespace TES.Integration.Eventbrite.Classes.Common
 {
-    class Ticket
+    public class Ticket
     {
         public Event MyProperty { get; set; }
         public string name { get; set; }

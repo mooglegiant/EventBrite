@@ -1,0 +1,5 @@
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\TES.Integration.Template\bin\Debug\TES.Integration.Template.dll
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\TES.Integration.Template\bin\Debug\TES.Integration.Template.pdb
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\TES.Integration.Template\obj\Debug\TES.Integration.Template.csprojResolveAssemblyReference.cache
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\TES.Integration.Template\obj\Debug\TES.Integration.Template.dll
+C:\Users\TESLaptop\Documents\Visual Studio 2012\Projects\EventBrite\TES.Integration.Template\obj\Debug\TES.Integration.Template.pdb
