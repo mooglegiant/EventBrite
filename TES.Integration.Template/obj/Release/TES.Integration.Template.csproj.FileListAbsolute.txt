@@ -1,0 +1,4 @@
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Template\bin\Release\TES.Integration.Template.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Template\bin\Release\TES.Integration.Template.pdb
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Template\obj\Release\TES.Integration.Template.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Template\obj\Release\TES.Integration.Template.pdb

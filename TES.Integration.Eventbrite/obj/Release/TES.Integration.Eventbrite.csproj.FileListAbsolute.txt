@@ -1,0 +1,9 @@
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\TES.Integration.Eventbrite.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\TES.Integration.Eventbrite.pdb
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\Newtonsoft.Json.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\TES.Integration.Template.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\TES.Integration.Template.pdb
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\bin\Release\Newtonsoft.Json.xml
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\obj\Release\TES.Integration.Eventbrite.csprojResolveAssemblyReference.cache
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\obj\Release\TES.Integration.Eventbrite.dll
+C:\Users\TESLaptop\documents\visual studio 2012\Projects\EventBrite\TES.Integration.Eventbrite\obj\Release\TES.Integration.Eventbrite.pdb
